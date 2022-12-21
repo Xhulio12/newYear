@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NEW YEAR SITE</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Mountains of Christmas' rel='stylesheet'>
+</head>
+<body>
+<div class="snow"></div>
+<header>
+	<nav>
+		<button id="No" class="nav-item-selected" onclick="stop(), reset(), changeStyle(0)">No music :/</button>
+		<button id="Last" class="nav-item" onclick="playLast(), reset(), changeStyle(1)">Last christmas</button>
+		<button id="All" class="nav-item" onclick="playAll(), reset(), changeStyle(2)">All I want for christmas is you</button>
+		<button id="We" class="nav-item" onclick="playWish(), reset(), changeStyle(3)">We wish you a merry christmas</button>
+		<button id="Jingle" class="nav-item" onclick="playJingle(), reset(), changeStyle(4)">Jingle bells</button>
+		<button id="Santa" class="nav-item" onclick="playSanta(), reset(), changeStyle(5)">Santa Clause is coming to town</button>
+	</nav>
+	<p class="header-bg"></p>
+</header>
+<main>
+	<div class="mainD">
+		<h2 class="headers">GEZUAR VITIN E RI!</h2>
+		Koha me e bukur e vitit erdhi dhe nuk ka moment me te bukur per te festuar (pervec veres kur jemi pushim po injorojeni si fakt). Per ca kohe nuk do keni me strese dhe jeta do jet me e bukur. Shijoni sa me shume embelsira se gjate kesaj kohe nuk shendosheni se dobsoheni prap si cdo vit. Ka disa njerez qe mendojn qe kadaifi eshte me keq se bakllava po sigurisht qe jetojm ne nje bote ku njerzit bejn gabime. Gjithsesi tani nuk duhet te bejm debate por te bashkohemi dhe te kenaqemi sa jemi te ri. Keshtu sa me pozitivitet te futemi ne 2023!!!
+	</div>
+
+	<div class="mainD">
+		<h2 class="headers">Atmosfera e festave</h2>
+		Eshte nje ndjesi e vecante gjate kesaj kohe. Te ben te ndjehesh si femij dhe njehere. Del jashte dhe shikon kudo zbukurimet e ndryhsme. Dritat e vitit te ri qe te mbushin me gezim vetem me nje shikim, ato qe i sjellin jete dhomave te errta dhe kur jeni vetem (e kuqe, blu, portokalli dhe jeshile jan kombinimi superior po sic tham me lart njerzit bejn gabime). Kenget e ndryshme qe i degjoni ne cdo vend sapo fillon Dhjetori. Dhe me e rendesishmja pema qe rrini nje dite per ta zbukuruar (send a pic of your <del>boobs</del> tree so I can rate it). Vendet ku jeni cdo dite marrin nje atmosfer festive gjate gjith muajt.
+	</div>
+
+	<div class="mainD">
+		<h2 class="headers">Shoqeria</h2>
+		Festat nuk kan vlere nqs nuk ke njeri per ti festuar. Tani eshte koha me e bukur e vitit per te dal me shoket. Mos e vrisni mendjen per problemet e jetes, notat e shkolles apo faktin qe bora qe keni ne ekran kthehet ne te njejtin pozicion cdo 20 sekonda. Shijoni pushimet sa me shume dhe me qetsi me dashuri na jepni ndonje kafe se u bem per mall :p
+	</div>
+
+	<div class="mainD">
+		<h2 class="headers">Dhuratat</h2>
+		Sigurisht qe Viti i Ri nuk eshte i plot pa dhuratat. Rendesi ka kuptimi i dhurates dhe cmimi po kjo dihej (psh per mua ka shume vler morale nje ps5 po ju se keni kuptuar akm mdk). Nje dhurate e bukur mund ta ndryshoj menyren si e shikoni Vitin e Ri per vitet me rradh kshuqe mendoni pak me mire para se ti beni... BTW i kam mbajtur te gjitha dhuratat qe me keni ber ju! (^◡^ )
+	</div>
+
+	<div class="shout-container">
+		<h2 id="mainShout">Shoutouts</h2>
+		<div class="shout">
+			<h2 class="shout-header">Ibiana</h2>
+			<p class="shout-text">Looking forward to our trip in Korca :p</p>
+		</div>
+
+		<div class="shout">
+			<h2 class="shout-header">Keida</h2>
+			<p class="shout-text">Shpresoj te stresohesh me pak per shkollen ne 2023 (ㆆ_ㆆ)</p>
+		</div>
+
+		<div class="shout">
+			<h2 class="shout-header">Lorela</h2>
+			<p class="shout-text">Thanks for the free taxi servecies. Very appriciated!</p>
+		</div>
+
+		<div class="shout">
+			<h2 class="shout-header">Uestli</h2>
+			<p class="shout-text">Shpresoj te mesosh se ca eshte durex ne 2023 dhe lutem qe ta perdoresh nje ne 2055 ☠☠☠</p>
+		</div>
+	</div>
+	<div class="random-container">
+		<h2 class="random-header">Gjeni sa ju pelqejn te tjeret:</h2>
+		<h3 class="random-header">Ps. nuk i shikoj dot emrat qe shkruani i swear😭</h3>
+		<label>Emri i personit: </label> <br>
+		<input type="text" id="text" maxlength="30">
+		<button onclick="calculate()">Gjeje!</button> <br>
+		<label id="name" class="random-text"></label> <br>
+		<h2 id="result-header" class="random-text"></h2>
+		<label id="result" class="random-text"></label>
+	</div>
+</main>
+<footer>
+	<h3>Si thoni ti coj njerzve kete kur te me urojn?</h3>
+	<h3>Have fun!😇</h3>
+</footer>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html> 
