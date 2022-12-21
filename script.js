@@ -9,7 +9,15 @@ audio.addEventListener('ended', function() {
 
 function changeStyle(announcmentIndex) {
   const element = document.getElementsByClassName("nav-item")[announcmentIndex];
-    element.className = "nav-item-selected";
+    if (announcmentIndex == 2) {
+    	element.className = "nav-item-selected2";
+    }
+    else if (announcmentIndex == 5) {
+    	element.className = "nav-item-selected2";
+    }
+    else {
+    	element.className = "nav-item-selected";
+    }
 }
 
 function reset() {

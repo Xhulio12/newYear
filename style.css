@@ -56,6 +56,14 @@ nav {
     background: #6a7045;
 }
 
+.nav-item-selected2 {
+	width: 34%;
+	height: 80px;
+	border: 1px solid black;
+	color: #810606;
+    background: #6a7045;
+}
+
 .header-bg {
 	color: black;
 	background: url(tree.jpg);
@@ -153,7 +161,7 @@ main {
 }
 
 .shout-header {
-	color: #b20e0e;
+	color: #0eb28c;
 }
 
 .random-container {
